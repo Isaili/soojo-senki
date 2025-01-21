@@ -177,7 +177,7 @@
     background-color: rgb(0, 0, 0);
     height: 600px;
     display: flex;
-    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    flex-direction: column;
     padding-left: 120px;
     padding-top: 80px;
     border-radius: 10px;
@@ -192,8 +192,8 @@
     text-transform: uppercase;
     font-weight: 500;
     position: relative;
-    top: 0; /* Restablece la posición */
-    margin-bottom: 20px; /* Espacio entre .a y .b */
+    top: 0; 
+    margin-bottom: 20px; 
 }
 
 .b {
@@ -243,8 +243,8 @@ border: 1px solid rgb(253, 253, 253);
     height: 90%;
     width: 90%;
     border-radius: 10px;
-    margin-left: 5%; /* Desplaza hacia la derecha */
-    top: 20px; /* Alinea a la misma altura que .a */
+    margin-left: 5%;
+    top: 20px; 
 }
 
 
